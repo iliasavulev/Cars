@@ -212,11 +212,14 @@ font-family: 'PT Sans';
 }
 
 .two-columns__content{
-  /*разделить на 2 колонки флексом*/
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .first-column{
   width: 770px;
+
 }
 .block{
   position: relative;
@@ -274,4 +277,172 @@ font-family: 'PT Sans';
   color: rgba(102, 102, 102, 1);
   margin: 0;
   max-width: 614px;
+}
+
+.second-column{
+  max-width: 270px;
+}
+.hunt__image{
+  border-radius: 5px;
+
+}
+.hunt__title{
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  color: rgba(23, 23, 23, 1);
+  margin: 0;
+  margin-top: 20px;
+
+}
+.hunt__subtitle{
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  font-style: italic;
+  margin-top: 8px;
+}
+.hunt__text{
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-top: 14px;
+}
+
+.btn{
+  display: inline-flex;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  width: 270px;
+  height: 50px;
+  background-color: rgba(35, 35, 35, 1);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts{
+  margin-top: 60px;
+}
+
+.second-column__title{
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  color: rgba(23, 23, 23, 1);
+
+}
+
+.post{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.post:last-child{
+  margin-bottom: 0;
+}
+
+.post__image{
+  border-radius: 5px;
+  margin-bottom: 20xp;
+
+}
+
+.post__retangular{
+  width: 62px;
+  height: 22px;
+  position: absolute;
+  top:20px;
+  left: 20px;;
+
+}
+
+.post__title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: rgba(23, 23, 23, 1);
+  max-width: 270px;
+
+
+}
+
+.post__subtitle{
+  margin: 0;
+  color: rgba(102, 102, 102, 1);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.instagram{
+  margin-top: 60px;
+}
+
+.instagram__images{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  font-size: 0;
+  gap: 10px;
+}
+
+.instagram__logo{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.btn__place{
+  margin-top: 10px;
+}
+
+
+.tags{
+  margin-top: 60px;
+}
+
+.second-column__title{
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.tags__links{
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tags__link{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(23, 23, 23, 1);
+  background-color: rgba(235, 235, 235, 1);
+  border-radius: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+}
+
+.most-popular__posts{
+  display: flex;
+  gap: 30px;
 }
